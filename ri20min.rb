@@ -33,7 +33,7 @@ class MegaGreeter
   end
 end
 
-if _FILE_== $0
+if __FILE__ == $0
   mg = MegaGreeter.new
   mg.say_hi
   mg.say_bye
